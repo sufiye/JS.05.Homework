@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./task.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="w-full h-screen flex justify-center items-center">
+
+    <form class=" flex flex-col" action="">
+        <input placeholder="firstname" class="border border-gray-400 py-3 px-4 m-3"  type="text" id="firstname">
+        <input placeholder="lastname" class="border border-gray-400 py-3 px-4 m-3"   type="text" id="lastname">
+        <input placeholder="email" class="border border-gray-400 py-3 px-4 m-3"  type="email" name="" id="email">
+        
+        <div  class="  border border-gray-400 py-2 px-4 m-3 relative">
+        <input placeholder="password"   type="password" name="" id="password">
+        
+        <button id="eyeBtn" class="absolute top-2 right-3" >
+        <img id="eyeOpen"  src="./picture/svg/eye.svg" alt="" hidden>
+        <img id="eyeClose" src="./picture/svg/eye-off.svg" alt="">
+        </button>
+
+        </div>
+    
+        <button class="bg-green-400  py-3 px-4 m-3 " id="send">Send</button>
+                
+    </form>
+  
+</body>
+</html>
